@@ -11,5 +11,5 @@
 서로 다른 요소의 최댓수 구하기
 
 더 좋은 다른 사람 코드
->def solution(nums):
+>def solution(nums):  
     return min(len(nums)/2, len(set(nums)))
