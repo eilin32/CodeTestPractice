@@ -1,10 +1,10 @@
 #----bagic----
-print(2**5) #2*2*2*2*2 = 32
-print(2**3**2) # 2**(3**2) = 2**9= 512
-print(9**(1/2)) #9의 루트 값 = 3.0 (항상 float값)
+print(2**5)  # 2*2*2*2*2 = 32
+print(2**3**2)  # 2**(3**2) = 2**9= 512
+print(9**(1/2))  # 9의 루트 값 = 3.0 (항상 float값)
 
-print(20//6) # 3 (20을 6으로 나눈 몫 값)
-print(20%6) # 2 (20을 6으로 나눈 나머지 값)
+print(20//6)  # 3 (20을 6으로 나눈 몫 값)
+print(20 % 6)  # 2 (20을 6으로 나눈 나머지 값)
 
 #you are offered a choice of either $1.000.000 or $0.01 doubled every day for 30 days(the resulting amount is doubled every day)
 #당신은 30일 동안 매일 $1.000.000 또는 $0.01 중 하나를 선택할 수 있습니다.(매일 2배의 총액)
@@ -15,7 +15,7 @@ print(0.01*(2**30))
 
 
 #----String----
-print('brian\'s mother : he\'s not an angel.') #\와 함께 쓰면 따옴표를 표시할 수 있다.
+print('brian\'s mother : he\'s not an angel.')  # \와 함께 쓰면 따옴표를 표시할 수 있다.
 
 #\n = enter , \t = tap
 print('hello \nworld')
@@ -31,8 +31,8 @@ text""")
 #multiline
 #text
 
-print("spam"*3)#spamspamspam
-print(3*'7') #777
+print("spam"*3)  # spamspamspam
+print(3*'7')  # 777
 
 this_is_a_normal_name = 7
 #123abc = 7
@@ -47,9 +47,9 @@ print("hi "+name)
 age = int(input("How old you?"))
 print(name+" is "+age)
 
-c="a"
-c*=3
-print(c) #aaa
+c = "a"
+c *= 3
+print(c)  # aaa
 
 num = int(input())
 print(num)
@@ -60,8 +60,8 @@ print(num)
 #Sample Input: 2 8
 #Sample Output: 10
 
-x= int(input())
-y= int(input())
+x = int(input())
+y = int(input())
 print(x+y)
 
 # == boolean
@@ -69,7 +69,7 @@ print(x+y)
 # < > <= >=
 # spring 끼리 비교할 경우 알파벳 순서로 크기를 재며, annie, andy 중 n이 d보다 뒤에 오므로 annie가 크다고 할 경우 true가 나온다.
 
-print("Annie">"Andy")
+print("Annie" > "Andy")
 
 # if 조건:
 #			실행문
@@ -80,6 +80,3 @@ print("Annie">"Andy")
 
 # Boolean Logic
 # and, or, not (&&, ||, !)
-
-
-
