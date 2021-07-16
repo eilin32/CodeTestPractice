@@ -1,3 +1,4 @@
+package CodingTest;
 public class codingtest3 {
 	public static void main(String[] args) {
 		String s = "aabcbcd";
