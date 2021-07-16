@@ -1,3 +1,4 @@
+package CodingTest;
 public class devcoding1 {
     public static void main(String[] args) {
         int d[] = { 1, 3, 2, 5, 4 };

@@ -1,3 +1,4 @@
+package CodingTest;
 
 public class codingtest2 {
 	public static void main(String[] args) {

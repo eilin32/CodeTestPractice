@@ -1,3 +1,4 @@
+package CodingTest;
 import java.lang.reflect.Array;
 
 public class codingtest {
