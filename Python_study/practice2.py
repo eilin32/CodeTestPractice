@@ -110,7 +110,6 @@ print(B)
 for i in range(5):
 	print("hello!")
 
-
 #Q. what does this code do?
 
 for i in range(10):
