@@ -14,7 +14,7 @@ import java.util.Scanner;
  * input : 내린 사람 수 + " "+ 탄 사람 수(10번 반복)
  * output : 가장 많았던 탑승 명 수
  */
-public class IntelligentTrain2 {
+public class IntelligentTrain2_2460 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int p = 0; //탑승 인원

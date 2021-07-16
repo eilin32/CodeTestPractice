@@ -6,7 +6,7 @@ import java.util.Scanner;
 Input : int T(테스트 케이스 개수), long n  (1 ≤ T ≤ 10, 1 ≤ n ≤ 10^6)
 Output : n을 이진수로 나타냈을 경우 1의 위치를 모두 출력 (최하위 위치 0)
 */
-public class Binary {
+public class Binary_3460 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int T = s.nextInt();

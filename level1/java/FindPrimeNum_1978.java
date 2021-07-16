@@ -7,7 +7,7 @@ import java.util.Scanner;
  * input : int N int num(N가지 숫자)
  * output : N개의 num 중 소수가 몇 개인지
  */
-public class FindPrimeNum {
+public class FindPrimeNum_1978 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int N = s.nextInt();

@@ -9,7 +9,7 @@ import java.util.Scanner;
  * input : int N, int K
  * output : N의 약수 중 K번째 숫자
  */
-public class measure {
+public class measure_2501 {
 
 	public static void main(String[] args) {
 		//input

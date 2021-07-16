@@ -7,7 +7,7 @@ import java.util.Scanner;
  * input : int T(테스트 케이스) int n(공백으로 숫자 입력 10번)
  * output : 크기가 10인 배열 숫자 중 3번째 큰 수
  */
-public class NthLargeNum {
+public class NthLargeNum_2693 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int T = s.nextInt();

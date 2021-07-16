@@ -7,7 +7,7 @@ import java.util.Scanner;
  * input : int n (0<=n<=20)
  * output : n번째 피보나치 수
  */
-public class FibonacciNum {
+public class FibonacciNum_10870 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();

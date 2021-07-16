@@ -6,7 +6,7 @@ import java.util.Scanner;
  * input : int a int b
  * output : gcd \n lcm
  */
-public class GcdLcm {
+public class GcdLcm_2609 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();

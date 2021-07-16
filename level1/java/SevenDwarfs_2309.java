@@ -11,7 +11,7 @@ import java.util.Scanner;
  * input : 아홉 난쟁이의 키 나열
  * output : 일곱 난쟁이 키 나열
  */
-public class SevenDwarfs {
+public class SevenDwarfs_2309 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		ArrayList<Integer> array =new ArrayList<>();
