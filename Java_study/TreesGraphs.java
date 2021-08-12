@@ -6,22 +6,22 @@ import java.util.Stack;
 class Graph {
 	class Node {
 		int data;
-		LinkedList<Node> adjacent;
-		boolean marked;
+		LinkedList<Node> adjacent; // 자식 노드(연결 된 노드)
+		boolean marked; // 확인된 노드인지 체크
 
 		Node(int data) {
 			this.data = data;
-			this.marked = false;
+			this.marked = false; 
 			adjacent = new LinkedList<Node>();
 		}
 	}
 
-	Node[] nodes;
+	Node[] nodes; //자식노드가 여러개일 경우 배열로 저장
 
 	Graph(int size) {
 		nodes = new Node[size];
 		for (int i = 0; i < size; i++) {
-			nodes[i] = new Node(i);
+			nodes[i] = new Node(i); 
 		}
 	}
 
