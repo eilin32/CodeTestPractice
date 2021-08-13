@@ -23,7 +23,7 @@ public class IntelligentTrain2_2460 {
 		int answer = 0; //가장 많았던 탑승 명 수
 		for(int i=0; i<10; i++){
 			u = s.nextInt();
-			t = s.nextInt();
+			t = s.nextInt();s.close();
 			p = p-u+t;
 			if(p>answer){
 				answer = p;

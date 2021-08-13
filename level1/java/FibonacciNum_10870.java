@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class FibonacciNum_10870 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		int n = s.nextInt();
+		int n = s.nextInt();s.close();
 		int a = 0; // n-1
 		int b = 1; // n-2
 		int answer =0;

@@ -30,6 +30,7 @@ public class NthLargeNum_2693 {
 			//3번째 원소 출력
 			System.out.println(array[2]);
 			T-=1;
+			s.close();
 		}
 		
 	}

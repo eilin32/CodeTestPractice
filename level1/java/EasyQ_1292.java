@@ -11,7 +11,7 @@ public class EasyQ_1292 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int A = s.nextInt();
-		int B = s.nextInt();
+		int B = s.nextInt();s.close();
 		int sum = 0;// 숫자가 커질 때마다의 해당 숫자 마지막 순서
 		int numA = 0;// A번째 해당 숫자
 		int numB = 0;// B번째 해당 숫자

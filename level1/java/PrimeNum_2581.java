@@ -14,7 +14,7 @@ public class PrimeNum_2581 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int M = s.nextInt();
-		int N = s.nextInt();
+		int N = s.nextInt();s.close();
 		int sum=0;
 		int min=10000;
 		ArrayList<Integer> array = new ArrayList<>();

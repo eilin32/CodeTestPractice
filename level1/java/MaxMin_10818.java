@@ -17,6 +17,8 @@ public class MaxMin_10818 {
 		for(int i =0; i<N; i++){
 			num.add(i,s.nextLong());
 		}
+
+		s.close();
 		Collections.sort(num);
 		System.out.println(num.get(0)+" "+num.get(num.size()-1));
 	}

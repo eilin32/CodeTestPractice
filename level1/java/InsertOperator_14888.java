@@ -27,7 +27,7 @@ public class InsertOperator_14888 {
 		for (int i = 0; i < 4; i++) {
 			op[i] = s.nextInt();
 		}
-
+		s.close();
 		Cal(num[0], 1);
 		System.out.println(Max);
 		System.out.println(Min);

@@ -16,7 +16,7 @@ public class measure_2501 {
 		Scanner s = new Scanner(System.in);
 		int N = s.nextInt();
 		int K = s.nextInt();
-		
+		s.close();
 
 		//logic
 		ArrayList<Integer> m = new ArrayList<Integer>();

@@ -13,7 +13,7 @@ public class FindPrimeNum_1978 {
 		int N = s.nextInt();
 		int count =0;
 		for(int i=0;i<N;i++){
-			int num = s.nextInt();
+			int num = s.nextInt();s.close();
 			//소수확인
 			if(FindPrime(num)){
 				count+=1;

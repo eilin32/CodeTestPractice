@@ -15,6 +15,7 @@ public class Binary_3460 {
 			long n = s.nextInt();
 			binary(n);
 		}
+		s.close();
 	}
 
 	public static void binary(long n) {
@@ -32,5 +33,5 @@ public class Binary_3460 {
 		}
 		System.out.println(answer);
 	}
-
+	
 }
