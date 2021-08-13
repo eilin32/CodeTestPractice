@@ -2,7 +2,9 @@ package Java_study;
 
 import java.util.LinkedList;
 import java.util.Stack;
-
+/**
+ * tree 그래프 BFS, DFS 탐색 구현
+ */
 class Graph {
 	class Node {
 		int data;

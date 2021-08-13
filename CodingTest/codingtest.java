@@ -1,6 +1,4 @@
 package CodingTest;
-import java.lang.reflect.Array;
-
 public class codingtest {
 	public static void main(String[] args) {
 		int prices[] = { 13000, 88000, 10000 };
